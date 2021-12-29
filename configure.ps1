@@ -83,4 +83,4 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-DefaultDocument
 # Write-Host "Enabling feature: IIS-HttpCompressionStatic"
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
 
-c:\utils\dotnet-hosting-3.1.22-win.exe
+choco install dotnetcore-3.1-windowshosting -y
