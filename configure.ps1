@@ -83,4 +83,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-DefaultDocument
 # Write-Host "Enabling feature: IIS-HttpCompressionStatic"
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
 
+choco feature enable -n=allowGlobalConfirmation
 choco install dotnetcore-3.1-windowshosting -y
+choco install dotnetcore-sdk
